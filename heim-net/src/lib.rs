@@ -23,6 +23,7 @@
 )]
 #![allow(clippy::missing_safety_doc)]
 #![cfg_attr(docsrs, feature(doc_cfg))]
+#![allow(dead_code)]
 
 pub mod os;
 mod sys;
